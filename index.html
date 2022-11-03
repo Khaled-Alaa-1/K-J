@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
   </head>
 
   <body>
@@ -21,6 +22,45 @@
     - The freeCodeCamp Team
 
     -->
+      <h1 id="title">sample form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form action="" id="survey-form">
+        <!-- <div class="input-holder"> -->
+            <label id="name-label" for="name">Name</label>
+            <input required type="text" id="name" placeholder="name">
+        <!-- </div> -->
+        <!-- <div class="input-holder"> -->
+          <label id="email-label" for="email">Email</label>
+          <input required type="email" id="email" placeholder="email">
+        <!-- </div> -->
+        <!-- <div class="input-holder"> -->
+          <label id="number-label" for="number">Age</label>
+          <input type="number" min="10" max="100" id="number" placeholder="Age">
+       <!-- </div> -->
+       <label for="select">Which option best describes your current role?</label>
+       <select name="select" id="dropdown">
+          <option value="student">student</option>
+          <option value="teacher">teacher</option>
+          <option value="worker">worker</option>
+       </select>
+       <label for="">Would you recommend freeCodeCamp to a friend?</label>
+       <!-- <div> -->
+        <input type="radio" value="value1" name="recommend" id="">
+        <input type="radio" value="value2" name="recommend" id="">
+       <!-- </div> -->
+       <label for="">What is your favorite feature of freeCodeCamp?</label>
+       <!-- <div> -->
+        <input type="checkbox" value="checkbox1" id="">
+        <input type="checkbox" value="checkbox2" id="">
+       <!-- </div> -->
+
+       <textarea name="" id="" cols="30" rows="10"></textarea>
+
+       <button id="submit">Submit</button>
+      </form>
+
+
+
     <script  src="js/index.js"></script>
   </body>
 </html>
